@@ -44,6 +44,27 @@ p {
   flex-direction: column;
 }
 
+.canettes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  animation: fadeIn 1s linear forwards;
+  -webkit-animation: fadeIn 1s linear forwards;
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-450px)  ;
+    -webkit-transform: translateY(-450px)  ;
+    -moz-transform: translateY(-450px)  ;
+    -ms-transform: translateY(-450px)  ;
+    -o-transform: translateY(-450px)  ;
+}
+}
+
 .title {
   text-transform: uppercase;
   font-size: 5em;
